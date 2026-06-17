@@ -17,3 +17,9 @@
 javac com/taxi/Main.java
 java com.taxi.Main
 ```
+Доменна модель (domain/model/DriverStatus.java та Driver.java)javapackage com.taxi.domain.model;
+```bash
+public enum DriverStatus {
+    AVAILABLE, BUSY
+}
+```
