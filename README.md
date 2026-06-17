@@ -64,7 +64,6 @@ public class CreateRideUseCase {
     private final RideRepository rideRepo;
     private final PricingService pricingService;
 
-    // Залежності передаються через конструктор (Dependency Injection)
     public CreateRideUseCase(DriverRepository driverRepo, RideRepository rideRepo, PricingService pricingService) {
         this.driverRepo = driverRepo;
         this.rideRepo = rideRepo;
